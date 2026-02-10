@@ -197,13 +197,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             Darkroom mode for macOS.
 
             Turns your display red-on-black by manipulating \
-            the display gamma curves. Red-only light preserves \
-            night vision and reduces eye strain.
-
+            the display gamma curves.
+	    
             Uses CGSetDisplayTransferByTable to zero out \
             green/blue channels and invert the red channel.
 
-            Public domain. No permissions required.
+            Public domain.
             """
         alert.alertStyle = .informational
         alert.addButton(withTitle: "OK")
