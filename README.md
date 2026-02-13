@@ -2,6 +2,8 @@
 
 A macOS menu bar utility that puts your display in red-on-black darkroom mode.
 
+![screenshot](redscreen.png)
+
 ## What it does
 
 Zeroes out the green and blue display channels and inverts the red channel, so white backgrounds become black and dark content glows red. This is the same technique f.lux uses for its "Darkroom" mode.
